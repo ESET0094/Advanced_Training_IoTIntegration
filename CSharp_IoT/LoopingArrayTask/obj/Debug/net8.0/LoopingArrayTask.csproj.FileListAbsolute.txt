@@ -1,0 +1,15 @@
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\obj\Debug\net8.0\LoopingArrayTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\obj\Debug\net8.0\LoopingArrayTask.AssemblyInfoInputs.cache
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\obj\Debug\net8.0\LoopingArrayTask.AssemblyInfo.cs
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\obj\Debug\net8.0\LoopingArrayTask.csproj.CoreCompileInputs.cache
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\obj\Debug\net8.0\LoopingArrayTask.sourcelink.json
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\bin\Debug\net8.0\LoopingArrayTask.exe
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\bin\Debug\net8.0\LoopingArrayTask.deps.json
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\bin\Debug\net8.0\LoopingArrayTask.runtimeconfig.json
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\bin\Debug\net8.0\LoopingArrayTask.dll
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\bin\Debug\net8.0\LoopingArrayTask.pdb
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\obj\Debug\net8.0\LoopingArrayTask.dll
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\obj\Debug\net8.0\refint\LoopingArrayTask.dll
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\obj\Debug\net8.0\LoopingArrayTask.pdb
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\obj\Debug\net8.0\LoopingArrayTask.genruntimeconfig.cache
+D:\Advanced_Training\CSharp_IoT\LoopingArrayTask\obj\Debug\net8.0\ref\LoopingArrayTask.dll

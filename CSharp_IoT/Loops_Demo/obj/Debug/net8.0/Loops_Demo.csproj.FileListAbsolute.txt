@@ -1,0 +1,15 @@
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\bin\Debug\net8.0\Loops_Demo.exe
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\bin\Debug\net8.0\Loops_Demo.deps.json
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\bin\Debug\net8.0\Loops_Demo.runtimeconfig.json
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\bin\Debug\net8.0\Loops_Demo.dll
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\bin\Debug\net8.0\Loops_Demo.pdb
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\obj\Debug\net8.0\Loops_Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\obj\Debug\net8.0\Loops_Demo.AssemblyInfoInputs.cache
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\obj\Debug\net8.0\Loops_Demo.AssemblyInfo.cs
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\obj\Debug\net8.0\Loops_Demo.csproj.CoreCompileInputs.cache
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\obj\Debug\net8.0\Loops_Demo.sourcelink.json
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\obj\Debug\net8.0\Loops_Demo.dll
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\obj\Debug\net8.0\refint\Loops_Demo.dll
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\obj\Debug\net8.0\Loops_Demo.pdb
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\obj\Debug\net8.0\Loops_Demo.genruntimeconfig.cache
+D:\Advanced_Training\CSharp_IoT\Loops_Demo\obj\Debug\net8.0\ref\Loops_Demo.dll
