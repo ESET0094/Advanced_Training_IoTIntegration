@@ -1,4 +1,6 @@
-﻿namespace BillingSystem
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace BillingSystem
 {
     internal class Program
     {
@@ -60,20 +62,30 @@
         }
         public static void Calculate_Tariff(double units, int[] Tariff_Slabs)
         {
+            DateTime CurrentTime = DateTime.Now;
+            DateTime BillDeadlineDate = CurrentTime.AddDays(10);
+            TimeSpan desiredTime = new TimeSpan(23, 59, 59);
+            DateTime BillDeadline = BillDeadlineDate.Date.Add(desiredTime);
+            string BillString, BillSerial;
+            BillString = CurrentTime.ToString("ddMMyyyy");
+            Random random_serial = new Random();
+            BillSerial = BillString + $"{random_serial.Next(1000, 10000)}";
+
             if (units < 50)
             {
                 double BillAmount = units * Tariff_Slabs[0];
-                Console.WriteLine($"Total Bill Amount:Rs.{BillAmount}");
+                Console.WriteLine($"Total Bill Amount Generated on {CurrentTime}:Rs.{BillAmount}.\nKindly pay the bill by {BillDeadline} to avoid penalties\n Bill No: {BillSerial}");
             }
             else if (units >= 50 && units < 100)
             {
                 double BillAmount = (units - 50) * Tariff_Slabs[1] + 50 * Tariff_Slabs[0];
-                Console.WriteLine($"Total Bill Amount:Rs.{BillAmount}");
+                Console.WriteLine($"Total Bill Amount Generated on {CurrentTime}:Rs.{BillAmount}.\nKindly pay the bill by {BillDeadline} to avoid penalties\n Bill No: {BillSerial}");
+
             }
             else
             {
                 double BillAmount = 50 *Tariff_Slabs[0] + 50 * Tariff_Slabs[1] + (units - 100) * Tariff_Slabs[2];
-                Console.WriteLine($"Total Bill Amount:Rs.{BillAmount}");
+                Console.WriteLine($"Total Bill Amount Generated on {CurrentTime}:Rs.{BillAmount}.\nKindly pay the bill by {BillDeadline} to avoid penalties\n Bill No: {BillSerial}");
             }
         }
     }
