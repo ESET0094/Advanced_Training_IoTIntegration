@@ -7,24 +7,26 @@ namespace NumbersOps
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("----------------------------");
+            Console.WriteLine("--------------------------------------------------");
            
             int First = getNumber();
             int Second = getNumber();
             int Third = getNumber();
-            if (checkNumberRange(First) && checkNumberRange(Second) && checkNumberRange(Third)) {
-                LargestNumber(First, Second, Third);
-               
-            }
-            else { 
-                Console.WriteLine("Invalid Number");
-            }
+            LargestNumber(First, Second, Third);
         } 
         
         public static int getNumber()
         {
             Console.WriteLine("Enter a three digit number:");
             int x = Convert.ToInt32(Console.ReadLine());
+            if (!checkNumberRange(x))
+            {
+                Console.WriteLine("Invalid Number");
+                x =getNumber();
+                
+
+                
+            }
             return x;
         }
         public static bool checkNumberRange(int number)

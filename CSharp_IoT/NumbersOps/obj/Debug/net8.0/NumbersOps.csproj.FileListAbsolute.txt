@@ -1,0 +1,15 @@
+D:\Advanced_Training\CSharp_IoT\NumbersOps\bin\Debug\net8.0\NumbersOps.exe
+D:\Advanced_Training\CSharp_IoT\NumbersOps\bin\Debug\net8.0\NumbersOps.deps.json
+D:\Advanced_Training\CSharp_IoT\NumbersOps\bin\Debug\net8.0\NumbersOps.runtimeconfig.json
+D:\Advanced_Training\CSharp_IoT\NumbersOps\bin\Debug\net8.0\NumbersOps.dll
+D:\Advanced_Training\CSharp_IoT\NumbersOps\bin\Debug\net8.0\NumbersOps.pdb
+D:\Advanced_Training\CSharp_IoT\NumbersOps\obj\Debug\net8.0\NumbersOps.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced_Training\CSharp_IoT\NumbersOps\obj\Debug\net8.0\NumbersOps.AssemblyInfoInputs.cache
+D:\Advanced_Training\CSharp_IoT\NumbersOps\obj\Debug\net8.0\NumbersOps.AssemblyInfo.cs
+D:\Advanced_Training\CSharp_IoT\NumbersOps\obj\Debug\net8.0\NumbersOps.csproj.CoreCompileInputs.cache
+D:\Advanced_Training\CSharp_IoT\NumbersOps\obj\Debug\net8.0\NumbersOps.sourcelink.json
+D:\Advanced_Training\CSharp_IoT\NumbersOps\obj\Debug\net8.0\NumbersOps.dll
+D:\Advanced_Training\CSharp_IoT\NumbersOps\obj\Debug\net8.0\refint\NumbersOps.dll
+D:\Advanced_Training\CSharp_IoT\NumbersOps\obj\Debug\net8.0\NumbersOps.pdb
+D:\Advanced_Training\CSharp_IoT\NumbersOps\obj\Debug\net8.0\NumbersOps.genruntimeconfig.cache
+D:\Advanced_Training\CSharp_IoT\NumbersOps\obj\Debug\net8.0\ref\NumbersOps.dll
