@@ -1,0 +1,15 @@
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\bin\Debug\net8.0\DataType_Demo.exe
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\bin\Debug\net8.0\DataType_Demo.deps.json
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\bin\Debug\net8.0\DataType_Demo.runtimeconfig.json
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\bin\Debug\net8.0\DataType_Demo.dll
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\bin\Debug\net8.0\DataType_Demo.pdb
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\obj\Debug\net8.0\DataType_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\obj\Debug\net8.0\DataType_Demo.AssemblyInfoInputs.cache
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\obj\Debug\net8.0\DataType_Demo.AssemblyInfo.cs
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\obj\Debug\net8.0\DataType_Demo.csproj.CoreCompileInputs.cache
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\obj\Debug\net8.0\DataType_Demo.sourcelink.json
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\obj\Debug\net8.0\DataType_Demo.dll
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\obj\Debug\net8.0\refint\DataType_Demo.dll
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\obj\Debug\net8.0\DataType_Demo.pdb
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\obj\Debug\net8.0\DataType_Demo.genruntimeconfig.cache
+C:\Users\HP\Advanced_Training\CSharp_IoT\DataType_Demo\obj\Debug\net8.0\ref\DataType_Demo.dll

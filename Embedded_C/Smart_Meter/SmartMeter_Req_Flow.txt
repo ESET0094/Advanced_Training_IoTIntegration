@@ -1,0 +1,107 @@
+1. GPS
+
+Start → Power On → Initialize GPS Module → Acquire Satellite Signals
+   ↓ (success?)
+    → Yes → Fetch Latitude/Longitude → Store in NVM + Send via MQTT → End
+
+   ↓ (Failure)
+    → No → Retry after Timeout → End
+
+2. Remote ON/OFF
+Start -> MQTT Subscribe (Topic:Control/OnOff) -> Wait for Command
+	-> (Command Received ?)
+		-> Yes -> Validate Security -> Switch Relay ON/OFF -> ACK via MQTT -> End
+	-> (Command Not Received?)
+		-> No -> Loop Listening
+	
+3. Diagnostic Events - Meter tampering msg to be sent 
+Start -> Loop Listening All Parameters (Eg. Active Current, Voltage, Hall Effect Sensor, Temp Sensor etc)
+    ->(Tampering Detected?) -> Log Event in Memory -> Encrypt Event -> Send MQTT Alert ->
+    ->(Tampering Not detected?) -> Loop Listening
+
+
+4. Security / Authentication
+Start -> Client Connection Request = Receive Authentication APDU
+    -> Verify Credentials (HLS Challenge-Response)
+    Pass -> Establish Secure Session -> Proceed to Data Exchange
+    Fail -> Continue Monitoring
+
+   
+5. Meter Parameters
+    Start -> Client Request (Get/Set Parameters)
+    -> Decode DLMS/COSEM Request
+    -> Identify Parameter (Voltage, Current, Power, etc.)
+    -> Fetch Value or Update Setting
+    -> Encrypt Response
+    -> Send MQTT Response -> End
+
+6. MQTT Bridge
+    Start -> Initialize MQTT Client -> Connect to Broker
+    -> Subscribe to Control Topics
+    -> Publish Meter Data -> Bridge to Cloud/Other Modules
+    -> (Connection Lost?)
+    Yes -> Reconnect Procedure -> Retry
+    No -> Continue Data Flow
+
+7. Encryption / Decryption
+    Start -> Data Ready for Transmission
+        -> Apply AES/HMAC Encryption
+        -> Send via MQTT
+        -> On Receive -> Decrypt Data -> Verify Integrity
+        ->Pass/Fail -> Process or Discard
+    
+    /* Client Connection Request -> Receive Authentication APDU
+    (Get Request?)
+    -> Encrypt data with public key -> Select (MQTT Topic : Based on Key) -> Publish the encrypted Data
+    (Set Request?)
+    -> Decrypt data with private key -> (Control/?) -> Initiate Control Subroutine (if Control) / Log Data if (Data)
+    */
+
+
+8. Import and Export of energy to grid
+Start -> Measure Energy Flow Direction
+ -> (Import?)
+ Yes-> Add to Import Register
+ -> (Export?)
+ Yes-> Add to Export Register
+ -> Log Data -> Send periodic report via MQTT -> End
+
+9. Voltage Control for smart meter
+Start -> Measure Voltage
+    -> Compare with Thresholds
+    -> If Over Voltage -> Log Event+Alert
+    -> If Under Voltage-> Log Event + Alert
+    -> Else Normal Operation
+
+
+10. Refresh data (45 days back)
+Start -> Scheduler (Daily Trigger)
+    -> Fetch Historical Data (Upto 45 Days)
+    -> Compile Report
+    -> Encrypt and Send via MQTT
+    -> if new entry
+    -> Refresh/delete the data from 45 days back (oldest data)
+    -> else keep as it is
+    -> End
+
+11. Scheduler Report
+Start -> Scheduler Timer Interrupt 
+    -> Collect Meter Data Snapshot 
+    -> Format Report (XML/JSON)
+    -> Encrypt 
+    -> Send MQTT Report to Server
+
+
+12. Optical communication / manual communication or fetching of data
+Start-> Read Optical Port 
+    -> (Proble Connected?) -> Verifty Authentication -> (Fetch Command?) -> Provide Parameters to Technician -> End
+    -> No -> Loop Listening
+    
+13. MQTT channel RF Module. communication module
+Start -> Initialize RF Module -> Establish RF Link
+-> Configure as MQTT Transport Layer
+-> Subscribe + Publish to Topics
+-> Forward Data between Smart Meter <-> Broker
+-> (RF Link Lost?)
+Yes -> Retry/Reinitialize
+No -> Continue Operation

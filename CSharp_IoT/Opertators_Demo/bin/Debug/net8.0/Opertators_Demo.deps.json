@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Opertators_Demo/1.0.0": {
+        "runtime": {
+          "Opertators_Demo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Opertators_Demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
