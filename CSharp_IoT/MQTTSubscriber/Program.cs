@@ -12,12 +12,12 @@ namespace MQTTSubscriber
             var mqtt = factory.CreateManagedMqttClient();
 
             var options = new MqttClientOptionsBuilder()
+                .WithClientId("abcd")
                 .WithTcpServer("localhost", 1883)
                 .WithCleanSession(false)
                 .Build();
             var mangagedOptions = new ManagedMqttClientOptionsBuilder()
                 .WithClientOptions(options)
-
                 .Build();
             // Console.WriteLine("Enter message to be sent");
             // Log Connection 
@@ -26,7 +26,7 @@ namespace MQTTSubscriber
                 Console.WriteLine("Connected");
             };
             await mqtt.StartAsync(mangagedOptions);
-            await Task.Delay(3000);
+            //await Task.Delay(3000);
             //Log Disconnected events
             mqtt.DisconnectedAsync += async e =>
             {
@@ -42,15 +42,11 @@ namespace MQTTSubscriber
             await mqtt.SubscribeAsync(new[]
             {
                 new MqttTopicFilterBuilder()
-                .WithTopic("test/temperature")
-                .WithQualityOfServiceLevel(MQTTnet.Protocol.MqttQualityOfServiceLevel.AtLeastOnce)
-                
+                .WithTopic("test/+/temperature")
+                .WithAtLeastOnceQoS()
                 .Build(),
             });
-            await Task.Delay(3000);
-            while (true)
-            {
-            }
+           while (true);
 
             //await mqtt.StopAsync();
         }
