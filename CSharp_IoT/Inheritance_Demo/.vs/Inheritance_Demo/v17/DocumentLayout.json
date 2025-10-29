@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Advanced_Training\\CSharp_IoT\\Inheritance_Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37FBB3A7-6F98-4017-B3A3-7F749C4CE2CB}|Inheritance_Demo.csproj|d:\\advanced_training\\csharp_iot\\inheritance_demo\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37FBB3A7-6F98-4017-B3A3-7F749C4CE2CB}|Inheritance_Demo.csproj|solutionrelative:card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37FBB3A7-6F98-4017-B3A3-7F749C4CE2CB}|Inheritance_Demo.csproj|d:\\advanced_training\\csharp_iot\\inheritance_demo\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37FBB3A7-6F98-4017-B3A3-7F749C4CE2CB}|Inheritance_Demo.csproj|solutionrelative:creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37FBB3A7-6F98-4017-B3A3-7F749C4CE2CB}|Inheritance_Demo.csproj|d:\\advanced_training\\csharp_iot\\inheritance_demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37FBB3A7-6F98-4017-B3A3-7F749C4CE2CB}|Inheritance_Demo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Card.cs",
+              "DocumentMoniker": "D:\\Advanced_Training\\CSharp_IoT\\Inheritance_Demo\\Card.cs",
+              "RelativeDocumentMoniker": "Card.cs",
+              "ToolTip": "D:\\Advanced_Training\\CSharp_IoT\\Inheritance_Demo\\Card.cs",
+              "RelativeToolTip": "Card.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwBYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T07:03:12.067Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreditCard.cs",
+              "DocumentMoniker": "D:\\Advanced_Training\\CSharp_IoT\\Inheritance_Demo\\CreditCard.cs",
+              "RelativeDocumentMoniker": "CreditCard.cs",
+              "ToolTip": "D:\\Advanced_Training\\CSharp_IoT\\Inheritance_Demo\\CreditCard.cs",
+              "RelativeToolTip": "CreditCard.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T07:03:18.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Advanced_Training\\CSharp_IoT\\Inheritance_Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Advanced_Training\\CSharp_IoT\\Inheritance_Demo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T07:02:48.687Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

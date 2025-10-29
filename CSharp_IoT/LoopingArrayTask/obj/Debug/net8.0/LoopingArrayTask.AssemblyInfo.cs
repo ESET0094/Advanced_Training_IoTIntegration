@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoopingArrayTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+224a70acc80a8db1ec337e70b96d0ca6eef3386c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+154744c83d718240012b7210b859d93bac90c936")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoopingArrayTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoopingArrayTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\bin\Debug\net8.0\DataProcessing_SmartMeter.exe
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\bin\Debug\net8.0\DataProcessing_SmartMeter.deps.json
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\bin\Debug\net8.0\DataProcessing_SmartMeter.runtimeconfig.json
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\bin\Debug\net8.0\DataProcessing_SmartMeter.dll
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\bin\Debug\net8.0\DataProcessing_SmartMeter.pdb
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\obj\Debug\net8.0\DataProcessing_SmartMeter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\obj\Debug\net8.0\DataProcessing_SmartMeter.AssemblyInfoInputs.cache
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\obj\Debug\net8.0\DataProcessing_SmartMeter.AssemblyInfo.cs
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\obj\Debug\net8.0\DataProcessing_SmartMeter.csproj.CoreCompileInputs.cache
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\obj\Debug\net8.0\DataProcessing_SmartMeter.sourcelink.json
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\obj\Debug\net8.0\DataProcessing_SmartMeter.dll
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\obj\Debug\net8.0\refint\DataProcessing_SmartMeter.dll
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\obj\Debug\net8.0\DataProcessing_SmartMeter.pdb
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\obj\Debug\net8.0\DataProcessing_SmartMeter.genruntimeconfig.cache
+D:\Advanced_Training\CSharp_IoT\DataProcessing_SmartMeter\obj\Debug\net8.0\ref\DataProcessing_SmartMeter.dll

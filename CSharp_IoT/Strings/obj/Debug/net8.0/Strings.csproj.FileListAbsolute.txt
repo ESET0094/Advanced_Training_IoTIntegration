@@ -1,0 +1,15 @@
+D:\Advanced_Training\CSharp_IoT\Strings\obj\Debug\net8.0\Strings.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced_Training\CSharp_IoT\Strings\obj\Debug\net8.0\Strings.AssemblyInfoInputs.cache
+D:\Advanced_Training\CSharp_IoT\Strings\obj\Debug\net8.0\Strings.AssemblyInfo.cs
+D:\Advanced_Training\CSharp_IoT\Strings\obj\Debug\net8.0\Strings.csproj.CoreCompileInputs.cache
+D:\Advanced_Training\CSharp_IoT\Strings\obj\Debug\net8.0\Strings.sourcelink.json
+D:\Advanced_Training\CSharp_IoT\Strings\bin\Debug\net8.0\Strings.exe
+D:\Advanced_Training\CSharp_IoT\Strings\bin\Debug\net8.0\Strings.deps.json
+D:\Advanced_Training\CSharp_IoT\Strings\bin\Debug\net8.0\Strings.runtimeconfig.json
+D:\Advanced_Training\CSharp_IoT\Strings\bin\Debug\net8.0\Strings.dll
+D:\Advanced_Training\CSharp_IoT\Strings\bin\Debug\net8.0\Strings.pdb
+D:\Advanced_Training\CSharp_IoT\Strings\obj\Debug\net8.0\Strings.dll
+D:\Advanced_Training\CSharp_IoT\Strings\obj\Debug\net8.0\refint\Strings.dll
+D:\Advanced_Training\CSharp_IoT\Strings\obj\Debug\net8.0\Strings.pdb
+D:\Advanced_Training\CSharp_IoT\Strings\obj\Debug\net8.0\Strings.genruntimeconfig.cache
+D:\Advanced_Training\CSharp_IoT\Strings\obj\Debug\net8.0\ref\Strings.dll

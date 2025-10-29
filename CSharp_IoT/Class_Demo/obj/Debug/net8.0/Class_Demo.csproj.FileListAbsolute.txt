@@ -1,0 +1,15 @@
+D:\Advanced_Training\CSharp_IoT\Class_Demo\bin\Debug\net8.0\Class_Demo.exe
+D:\Advanced_Training\CSharp_IoT\Class_Demo\bin\Debug\net8.0\Class_Demo.deps.json
+D:\Advanced_Training\CSharp_IoT\Class_Demo\bin\Debug\net8.0\Class_Demo.runtimeconfig.json
+D:\Advanced_Training\CSharp_IoT\Class_Demo\bin\Debug\net8.0\Class_Demo.dll
+D:\Advanced_Training\CSharp_IoT\Class_Demo\bin\Debug\net8.0\Class_Demo.pdb
+D:\Advanced_Training\CSharp_IoT\Class_Demo\obj\Debug\net8.0\Class_Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced_Training\CSharp_IoT\Class_Demo\obj\Debug\net8.0\Class_Demo.AssemblyInfoInputs.cache
+D:\Advanced_Training\CSharp_IoT\Class_Demo\obj\Debug\net8.0\Class_Demo.AssemblyInfo.cs
+D:\Advanced_Training\CSharp_IoT\Class_Demo\obj\Debug\net8.0\Class_Demo.csproj.CoreCompileInputs.cache
+D:\Advanced_Training\CSharp_IoT\Class_Demo\obj\Debug\net8.0\Class_Demo.sourcelink.json
+D:\Advanced_Training\CSharp_IoT\Class_Demo\obj\Debug\net8.0\Class_Demo.dll
+D:\Advanced_Training\CSharp_IoT\Class_Demo\obj\Debug\net8.0\refint\Class_Demo.dll
+D:\Advanced_Training\CSharp_IoT\Class_Demo\obj\Debug\net8.0\Class_Demo.pdb
+D:\Advanced_Training\CSharp_IoT\Class_Demo\obj\Debug\net8.0\Class_Demo.genruntimeconfig.cache
+D:\Advanced_Training\CSharp_IoT\Class_Demo\obj\Debug\net8.0\ref\Class_Demo.dll

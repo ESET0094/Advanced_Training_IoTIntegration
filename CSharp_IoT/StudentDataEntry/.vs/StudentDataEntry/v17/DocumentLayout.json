@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Advanced_Training\\CSharp_IoT\\StudentDataEntry\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D18427-94EB-408A-9548-2E0A5052457D}|StudentDataEntry.csproj|d:\\advanced_training\\csharp_iot\\studentdataentry\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D18427-94EB-408A-9548-2E0A5052457D}|StudentDataEntry.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D18427-94EB-408A-9548-2E0A5052457D}|StudentDataEntry.csproj|d:\\advanced_training\\csharp_iot\\studentdataentry\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D18427-94EB-408A-9548-2E0A5052457D}|StudentDataEntry.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Advanced_Training\\CSharp_IoT\\StudentDataEntry\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "D:\\Advanced_Training\\CSharp_IoT\\StudentDataEntry\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T05:23:08.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Advanced_Training\\CSharp_IoT\\StudentDataEntry\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Advanced_Training\\CSharp_IoT\\StudentDataEntry\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T05:22:56.202Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

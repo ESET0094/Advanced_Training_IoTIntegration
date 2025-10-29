@@ -1,0 +1,15 @@
+D:\Advanced_Training\CSharp_IoT\CustomException\bin\Debug\net8.0\CustomException.exe
+D:\Advanced_Training\CSharp_IoT\CustomException\bin\Debug\net8.0\CustomException.deps.json
+D:\Advanced_Training\CSharp_IoT\CustomException\bin\Debug\net8.0\CustomException.runtimeconfig.json
+D:\Advanced_Training\CSharp_IoT\CustomException\bin\Debug\net8.0\CustomException.dll
+D:\Advanced_Training\CSharp_IoT\CustomException\bin\Debug\net8.0\CustomException.pdb
+D:\Advanced_Training\CSharp_IoT\CustomException\obj\Debug\net8.0\CustomException.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced_Training\CSharp_IoT\CustomException\obj\Debug\net8.0\CustomException.AssemblyInfoInputs.cache
+D:\Advanced_Training\CSharp_IoT\CustomException\obj\Debug\net8.0\CustomException.AssemblyInfo.cs
+D:\Advanced_Training\CSharp_IoT\CustomException\obj\Debug\net8.0\CustomException.csproj.CoreCompileInputs.cache
+D:\Advanced_Training\CSharp_IoT\CustomException\obj\Debug\net8.0\CustomException.sourcelink.json
+D:\Advanced_Training\CSharp_IoT\CustomException\obj\Debug\net8.0\CustomException.dll
+D:\Advanced_Training\CSharp_IoT\CustomException\obj\Debug\net8.0\refint\CustomException.dll
+D:\Advanced_Training\CSharp_IoT\CustomException\obj\Debug\net8.0\CustomException.pdb
+D:\Advanced_Training\CSharp_IoT\CustomException\obj\Debug\net8.0\CustomException.genruntimeconfig.cache
+D:\Advanced_Training\CSharp_IoT\CustomException\obj\Debug\net8.0\ref\CustomException.dll

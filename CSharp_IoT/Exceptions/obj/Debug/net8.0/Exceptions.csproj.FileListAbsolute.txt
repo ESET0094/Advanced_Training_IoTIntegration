@@ -1,0 +1,15 @@
+D:\Advanced_Training\CSharp_IoT\Exceptions\bin\Debug\net8.0\Exceptions.exe
+D:\Advanced_Training\CSharp_IoT\Exceptions\bin\Debug\net8.0\Exceptions.deps.json
+D:\Advanced_Training\CSharp_IoT\Exceptions\bin\Debug\net8.0\Exceptions.runtimeconfig.json
+D:\Advanced_Training\CSharp_IoT\Exceptions\bin\Debug\net8.0\Exceptions.dll
+D:\Advanced_Training\CSharp_IoT\Exceptions\bin\Debug\net8.0\Exceptions.pdb
+D:\Advanced_Training\CSharp_IoT\Exceptions\obj\Debug\net8.0\Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced_Training\CSharp_IoT\Exceptions\obj\Debug\net8.0\Exceptions.AssemblyInfoInputs.cache
+D:\Advanced_Training\CSharp_IoT\Exceptions\obj\Debug\net8.0\Exceptions.AssemblyInfo.cs
+D:\Advanced_Training\CSharp_IoT\Exceptions\obj\Debug\net8.0\Exceptions.csproj.CoreCompileInputs.cache
+D:\Advanced_Training\CSharp_IoT\Exceptions\obj\Debug\net8.0\Exceptions.sourcelink.json
+D:\Advanced_Training\CSharp_IoT\Exceptions\obj\Debug\net8.0\Exceptions.dll
+D:\Advanced_Training\CSharp_IoT\Exceptions\obj\Debug\net8.0\refint\Exceptions.dll
+D:\Advanced_Training\CSharp_IoT\Exceptions\obj\Debug\net8.0\Exceptions.pdb
+D:\Advanced_Training\CSharp_IoT\Exceptions\obj\Debug\net8.0\Exceptions.genruntimeconfig.cache
+D:\Advanced_Training\CSharp_IoT\Exceptions\obj\Debug\net8.0\ref\Exceptions.dll

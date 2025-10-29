@@ -9,7 +9,7 @@ namespace MeteringSystem
     internal class Customer
     {
         public static string Country = "India";
-       public int? ID { get; set; }
+       public string? ID { get; set; }
         public string? Name { get; set; }
         public string? Address { get; set; }
         public string? City { get; set; }
@@ -19,7 +19,7 @@ namespace MeteringSystem
 
         public Customer()
         {
-            ID = 0;
+            ID = string.Empty;
             Name = string.Empty;
             Address = string.Empty;
             City = string.Empty;
@@ -31,7 +31,7 @@ namespace MeteringSystem
         public void addCustomer()
         {
             Console.WriteLine("Enter ID:");
-            ID = Convert.ToInt32(Console.ReadLine());
+            ID = (Console.ReadLine());
             Console.WriteLine("Enter Name:");
             Name = Console.ReadLine();
             Console.WriteLine("Enter Address:");

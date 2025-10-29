@@ -19,10 +19,12 @@ namespace MeteringSystem
             MeterID = meterID;
             Console.WriteLine("Customer mapped to meter");
         }
-        public void DisplayData()
+        public string returnData(string customerID)
         {
-           Console.WriteLine($"{CustomerID} {MeterID}"); 
-
+            if (customerID == CustomerID)
+                return MeterID;
+            else
+                return string.Empty;
         }
 
     }

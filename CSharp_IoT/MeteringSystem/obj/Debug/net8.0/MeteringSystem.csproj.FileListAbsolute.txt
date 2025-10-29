@@ -1,0 +1,15 @@
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\obj\Debug\net8.0\MeteringSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\obj\Debug\net8.0\MeteringSystem.AssemblyInfoInputs.cache
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\obj\Debug\net8.0\MeteringSystem.AssemblyInfo.cs
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\obj\Debug\net8.0\MeteringSystem.csproj.CoreCompileInputs.cache
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\obj\Debug\net8.0\MeteringSystem.sourcelink.json
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\bin\Debug\net8.0\MeteringSystem.exe
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\bin\Debug\net8.0\MeteringSystem.deps.json
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\bin\Debug\net8.0\MeteringSystem.runtimeconfig.json
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\bin\Debug\net8.0\MeteringSystem.dll
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\bin\Debug\net8.0\MeteringSystem.pdb
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\obj\Debug\net8.0\MeteringSystem.dll
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\obj\Debug\net8.0\refint\MeteringSystem.dll
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\obj\Debug\net8.0\MeteringSystem.pdb
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\obj\Debug\net8.0\MeteringSystem.genruntimeconfig.cache
+D:\Advanced_Training\CSharp_IoT\MeteringSystem\obj\Debug\net8.0\ref\MeteringSystem.dll

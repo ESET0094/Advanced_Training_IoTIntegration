@@ -17,6 +17,7 @@ namespace MeteringSystem
         {
             Console.WriteLine("Enter Meter Serial : ");
             MeterID = Console.ReadLine();
+           
             TimeStamp = DateTime.Now;
             string BillString, BillSerial;
             BillString = TimeStamp.ToString("ddMMyyyy");
@@ -24,6 +25,11 @@ namespace MeteringSystem
             BillCode = BillString + $"{random_serial.Next(1000, 10000)}";
             Console.WriteLine("Enter Usage");
             Usage = Convert.ToDouble(Console.ReadLine());
+            if (Usage > 700) { throw new DivideByZeroException(); }
+            if (Usage < 0) {  throw new DivideByZeroException(); }
+            if (Usage == 0) { throw new Exception(); }
+
+
             Console.WriteLine("Reading added Successfully");
 
         }

@@ -1,0 +1,15 @@
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\bin\Debug\net8.0\Interface_Demo.exe
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\bin\Debug\net8.0\Interface_Demo.deps.json
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\bin\Debug\net8.0\Interface_Demo.runtimeconfig.json
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\bin\Debug\net8.0\Interface_Demo.dll
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\bin\Debug\net8.0\Interface_Demo.pdb
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\obj\Debug\net8.0\Interface_Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\obj\Debug\net8.0\Interface_Demo.AssemblyInfoInputs.cache
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\obj\Debug\net8.0\Interface_Demo.AssemblyInfo.cs
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\obj\Debug\net8.0\Interface_Demo.csproj.CoreCompileInputs.cache
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\obj\Debug\net8.0\Interface_Demo.sourcelink.json
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\obj\Debug\net8.0\Interface_Demo.dll
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\obj\Debug\net8.0\refint\Interface_Demo.dll
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\obj\Debug\net8.0\Interface_Demo.pdb
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\obj\Debug\net8.0\Interface_Demo.genruntimeconfig.cache
+D:\Advanced_Training\CSharp_IoT\Interface_Demo\obj\Debug\net8.0\ref\Interface_Demo.dll

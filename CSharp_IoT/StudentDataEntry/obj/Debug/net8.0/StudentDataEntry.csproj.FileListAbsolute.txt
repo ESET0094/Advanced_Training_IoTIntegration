@@ -1,0 +1,15 @@
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\obj\Debug\net8.0\StudentDataEntry.GeneratedMSBuildEditorConfig.editorconfig
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\obj\Debug\net8.0\StudentDataEntry.AssemblyInfoInputs.cache
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\obj\Debug\net8.0\StudentDataEntry.AssemblyInfo.cs
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\obj\Debug\net8.0\StudentDataEntry.csproj.CoreCompileInputs.cache
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\obj\Debug\net8.0\StudentDataEntry.sourcelink.json
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\bin\Debug\net8.0\StudentDataEntry.exe
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\bin\Debug\net8.0\StudentDataEntry.deps.json
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\bin\Debug\net8.0\StudentDataEntry.runtimeconfig.json
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\bin\Debug\net8.0\StudentDataEntry.dll
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\bin\Debug\net8.0\StudentDataEntry.pdb
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\obj\Debug\net8.0\StudentDataEntry.dll
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\obj\Debug\net8.0\refint\StudentDataEntry.dll
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\obj\Debug\net8.0\StudentDataEntry.pdb
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\obj\Debug\net8.0\StudentDataEntry.genruntimeconfig.cache
+D:\Advanced_Training\CSharp_IoT\StudentDataEntry\obj\Debug\net8.0\ref\StudentDataEntry.dll

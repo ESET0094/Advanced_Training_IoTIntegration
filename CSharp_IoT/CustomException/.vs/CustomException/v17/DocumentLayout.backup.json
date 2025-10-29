@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Advanced_Training\\CSharp_IoT\\CustomException\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A917B43-E52B-406B-BD3E-DDD8DB8D0950}|CustomException.csproj|d:\\advanced_training\\csharp_iot\\customexception\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A917B43-E52B-406B-BD3E-DDD8DB8D0950}|CustomException.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A917B43-E52B-406B-BD3E-DDD8DB8D0950}|CustomException.csproj|d:\\advanced_training\\csharp_iot\\customexception\\ageexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A917B43-E52B-406B-BD3E-DDD8DB8D0950}|CustomException.csproj|solutionrelative:ageexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A917B43-E52B-406B-BD3E-DDD8DB8D0950}|CustomException.csproj|d:\\advanced_training\\csharp_iot\\customexception\\excepsion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A917B43-E52B-406B-BD3E-DDD8DB8D0950}|CustomException.csproj|solutionrelative:excepsion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Excepsion.cs",
+              "DocumentMoniker": "D:\\Advanced_Training\\CSharp_IoT\\CustomException\\Excepsion.cs",
+              "RelativeDocumentMoniker": "Excepsion.cs",
+              "ToolTip": "D:\\Advanced_Training\\CSharp_IoT\\CustomException\\Excepsion.cs",
+              "RelativeToolTip": "Excepsion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:40:15.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Advanced_Training\\CSharp_IoT\\CustomException\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Advanced_Training\\CSharp_IoT\\CustomException\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:13:20.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgeException.cs",
+              "DocumentMoniker": "D:\\Advanced_Training\\CSharp_IoT\\CustomException\\AgeException.cs",
+              "RelativeDocumentMoniker": "AgeException.cs",
+              "ToolTip": "D:\\Advanced_Training\\CSharp_IoT\\CustomException\\AgeException.cs",
+              "RelativeToolTip": "AgeException.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T10:39:46.822Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

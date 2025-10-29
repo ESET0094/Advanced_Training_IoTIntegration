@@ -8,7 +8,7 @@ namespace MeteringSystem
 {
     internal class SmartMeter
     {
-        string MeterID { get; set; }
+        public string MeterID { get; set; }
         string Model {  get; set; }
        
 
