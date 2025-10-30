@@ -5,6 +5,7 @@ using System.Text;
 using MQTTnet.Extensions.ManagedClient;
 using System.Threading.Tasks;
 using System.Transactions;
+using System.Reflection;
 namespace MQTTClient
 {
     internal class Program
@@ -12,24 +13,50 @@ namespace MQTTClient
         static async Task Main(string[] args)
         {
             var factory = new MqttFactory();
-            var mqtt = factory.CreateManagedMqttClient();
+            //var mqtt = factory.CreateManagedMqttClient();
+            var mqtt = factory.CreateMqttClient();
            
             var options = new MqttClientOptionsBuilder()
                 .WithClientId("defc")
-                .WithTcpServer("localhost", 1883)
+                
+                .WithTcpServer("172.16.103.22", 1883)
                 .WithCleanSession(false)
                 .WithWillTopic("test/temperature")
                 .WithWillPayload("Connection Died")
                 .Build();
-            var mangagedOptions = new ManagedMqttClientOptionsBuilder()
-                .WithClientOptions(options)
-                
-                .Build();
+            //var mangagedOptions = new ManagedMqttClientOptionsBuilder()
+            //    .WithClientOptions(options)
+           await mqtt.ConnectAsync(options);
+
+          
+
+            
+            //    .Build();
             Random random = new Random();
             string FilePath = @"D:\Advanced_Training\CSharp_IoT\MQTTClient\MQTTLogs.txt";
             string logMessage;
             // Console.WriteLine("Enter message to be sent");
             // Log Connection 
+            
+            mqtt.DisconnectedAsync += async e =>
+            {
+                try
+                {
+                    await Task.Delay(5000);
+                    logMessage = $"{DateTime.Now}, Disconnected";
+                    File.AppendAllText(FilePath, logMessage + Environment.NewLine);
+
+                    Console.WriteLine("Disconnected");
+                    await Task.Delay(1000);
+                    await mqtt.ConnectAsync(options);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Failed to Log : {ex.Message}");
+
+                }
+
+            };
             mqtt.ConnectedAsync += async e =>
             {
                 try
@@ -37,52 +64,44 @@ namespace MQTTClient
                     logMessage = $"{DateTime.Now}, Connection Established";
                     File.AppendAllText(FilePath, logMessage + Environment.NewLine);
                     Console.WriteLine("Connected");
+                    await mqtt.DisconnectAsync();
+
                 }
-                catch(Exception ex) 
+                catch (Exception ex) 
                 {
                     Console.WriteLine($"Failed to Log : {ex.Message}");
 
                 }
             };
             //await mqtt.StartAsync(mangagedOptions);
-            await mqtt.StartAsync(mangagedOptions);
-
-            // Send random temperatrure between 30 and 40 every 5 seconds
-            while (true)
+            //await mqtt.StartAsync(mangagedOptions);
+            try
             {
-
-                var payload = (random.Next(30, 40));
-                var message = new MqttApplicationMessageBuilder()
-                    .WithTopic("test/temperature")
-                    .WithPayload($"{payload}")
-                    .WithQualityOfServiceLevel(MQTTnet.Protocol.MqttQualityOfServiceLevel.AtLeastOnce)
-
-                    .Build();
-                Console.WriteLine($"{message}");
-                await mqtt.EnqueueAsync(message);
-                
-
-                await Task.Delay(3000);
-                //Log Disconnected events
-                mqtt.DisconnectedAsync += async e =>
+                // Send random temperatrure between 30 and 40 every 5 seconds
+                while (true)
                 {
-                    try
-                    {
-                        logMessage = $"{DateTime.Now}, Disconnected";
-                        File.AppendAllText(FilePath, logMessage + Environment.NewLine);
-                        Console.WriteLine("Disconnected");
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine($"Failed to Log : {ex.Message}");
 
-                    }
-                    
-                };
-                await mqtt.StopAsync();
-                 
+                    var payload = (random.Next(30, 40));
+                    var message = new MqttApplicationMessageBuilder()
+                        .WithTopic("test/temperature")
+                        .WithPayload($"{payload}")
+                        .WithQualityOfServiceLevel(MQTTnet.Protocol.MqttQualityOfServiceLevel.ExactlyOnce)
 
+                        .Build();
+                    Console.WriteLine($"{message}");
+                    await mqtt.PublishAsync(message);
+
+                    await Task.Delay(5000);
+                   
+
+                    //Log Disconnected events
+
+                    //await mqtt.StopAsync();
+
+
+                }
             }
+            catch(Exception e) { Console.WriteLine($"Exceptipon:{e.Message}"); }
 
         }
 
