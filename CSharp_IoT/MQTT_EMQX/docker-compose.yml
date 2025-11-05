@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  emqx1:
+    image: emqx/emqx:5.4.1
+    container_name: emqx1
+    hostname: emqx1 # Set internal hostname for consistency
+    environment:
+      # Use the fully qualified local aliases for node names
+      - "EMQX_NODE__NAME=emqx1@172.16.103.90"
+      # IMPORTANT: Remove leading space from cookie value
+      - "EMQX_NODE__COOKIE=secretcookie" 
+      - "EMQX_CLUSTER__DISCOVERY_STRATEGY=static"
+      # List all seed nodes
+      - "EMQX_CLUSTER__STATIC__SEEDS=[\"emqx1@172.16.103.22\",\"emqx1@172.16.103.90\", \"emqx2@172.16.103.90\"]"
+    # networks:
+    #   emqx-net:
+    #     aliases:
+    #       - emqx1.local
+    ports: 
+      - "18081:18083" # Dashboard
+      - "8081:8083"   # MQTT/WS
+      - "1881:1883"   # MQTT/TCP
+      - "8881:8883"   # MQTT/WSS
+      - "4370:4370"
+    
+
+  emqx2:
+    image: emqx/emqx:5.4.1
+    container_name: emqx2
+    hostname: emqx2 # Set internal hostname for consistency
+    environment:
+      # Use the fully qualified local aliases for node names
+      - "EMQX_NODE__NAME=emqx2@172.16.103.90"
+      # IMPORTANT: Must match emqx1's cookie value exactly
+      - "EMQX_NODE__COOKIE=secretcookie"
+      - "EMQX_CLUSTER__DISCOVERY_STRATEGY=static"
+      # List all seed nodes
+      - "EMQX_CLUSTER__STATIC__SEEDS=[\"emqx1@172.16.103.22\",\"emqx1@172.16.103.90\", \"emqx2@172.16.103.90\"]"
+    # networks:
+    #   emqx-net:
+    #     aliases:
+    #       - emqx2.local
+    ports: 
+      # Mapped to different host ports to avoid conflicts
+      - "18082:18083" # Dashboard (Host 18082)
+      - "8085:8083"   # MQTT/WS (Host 8085)
+      - "2884:1883"   # MQTT/TCP (Host 2884)
+      - "8885:8883"   # MQTT/WSS (Host 8885)
+  
+
+# Top-level definition for the custom bridge network
+# networks:
+#   emqx-net:
+#     driver: bridge
