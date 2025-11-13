@@ -19,9 +19,9 @@ namespace MQTTClient
             var options = new MqttClientOptionsBuilder()
                 .WithClientId("defc")
                 
-                .WithTcpServer("172.16.103.22", 1883)
+                .WithTcpServer("localhost", 1883)
                 .WithCleanSession(false)
-                .WithWillTopic("test/temperature")
+                .WithWillTopic("test/r1/temperature")
                 .WithWillPayload("Connection Died")
                 .Build();
             //var mangagedOptions = new ManagedMqttClientOptionsBuilder()
